@@ -591,6 +591,38 @@ img {
   text-align: center;
 }
 
+.footer-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  padding-left: 16px;
+}
+
+.footer-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: var(--accent-color);
+  color: var(--primary-white-color);
+
+  /* align-items: center;
+  text-align: center;
+  justify-content: center;
+  letter-spacing: 0.06em; */
+
+  padding: 0;
+}
+
+/* .button-icon {
+  align-items: center;
+  justify-content: center;
+} */
+
 /* button */
 .button {
   background-color: #f5f4fa;
@@ -942,4 +974,102 @@ img {
 .modal-button:hover,
 .modal-button:focus {
   fill: var(--accent-color);
+}
+
+.form {
+  display: block;
+  padding: 40px;
+  height: 100%;
+}
+
+.form-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  margin-bottom: 12px;
+
+  color: #212121;
+}
+.form-group {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 448px;
+  height: 40px;
+
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.footer-input-text {
+  width: 448px;
+  height: 120px;
+}
+
+.form-input:hover,
+.form-input:focus {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
+
+.form-lable {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  margin-bottom: 4px;
+
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+textarea[placeholder] {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.form-privacy {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.privacy-link {
+  color: #2196f3;
+}
+
+.form-button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  color: var(--primary-white-color);
+}
+
+.form-button:hover,
+.form-button:focus {
+  background: #188ce8;
+  cursor: pointer;
 }
