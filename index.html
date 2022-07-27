@@ -125,11 +125,13 @@
               <a href="#"><img src="./images/img(1).jpg" alt="дизайн" width="370" /></a>
               <div class="item-title">
                 <h3 class="wwd-title">Мобильные приложения</h3>
+              </div>
             </li>
             <li class="item-wwd">
               <a href="#"><img src="./images/img(2).jpg" alt="внешнее оформление" width="370" /></a>
               <div class="item-title">
                 <h3 class="wwd-title">Дизайнерские решения</h3>
+              </div>
             </li>
           </ul>
         </div>
@@ -670,16 +672,16 @@
         <form class="footer-form">
           <label class="footer-label">
             <h3 class="footer-title">Подпишитесь на рассылку</h3>
-            <input class="footer-input" type="email" name="email" placeholder="E-mail"/>
-            <button class="footer-button" type="submit">Подписаться<svg class="button-icon" width="24" height="24">
-              <use href="./images/icons.svg#icon-send">
-              </use>
-            </svg>
-          </button>
-            
+            <div class="footer-form-group">
+              <input class="footer-input" type="email" name="email" placeholder="E-mail" />
+              <button class="footer-button" type="submit">
+                Подписаться<svg class="button-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
+            </div>
           </label>
         </form>
-
       </div>
     </footer>
     <!-- modal window -->
@@ -690,44 +692,44 @@
             <use href="./images/icons.svg#button-close"></use>
           </svg>
         </button>
-        
+
         <form class="form">
-          
           <strong class="form-title">Оставьте свои данные, мы вам перезвоним</strong>
-          
-          <label class="form-group" name="user-name">
+
+          <label class="form-group">
             <span class="form-lable">Имя</span>
-            <input class="form-input" type="text" name="user-name"/>
+
+            <input class="form-input" type="text" name="user-name" />
             <svg class="form-icon" width="18" height="18">
-              <use href=""></use>
+              <use href="./images/icons.svg#client-name"></use>
             </svg>
           </label>
-          <label class="form-group" name="user-phone">
+          <label class="form-group">
             <span class="form-lable">Телефон</span>
-            <input class="form-input" type="tel" name="user-phone"/>
+            <input class="form-input" type="tel" name="user-phone" />
             <svg class="form-icon" width="18" height="18">
-              <use href=""></use>
+              <use href="./images/icons.svg#client-phone"></use>
             </svg>
           </label>
-          <label class="form-group" name="email">
+          <label class="form-group">
             <span class="form-lable">Почта</span>
-            <input class="form-input" type="email" name="email"/>
+            <input class="form-input" type="email" name="email" />
             <svg class="form-icon" width="18" height="18">
-              <use href=""></use>
+              <use href="./images/icons.svg#client-email"></use>
             </svg>
-        
           </label>
           <label class="form-group">
             <span class="form-lable">Комментарий</span>
             <textarea class="form-input-text" placeholder="Введите текст" rows="5"></textarea>
           </label>
           <label class="form-group">
-            <input class="form-input-privacy" type="checkbox"/>
-            <span class="form-privacy">Соглашаюсь с рассылкой и принимаю <a class="privacy-link" href="">Условия договорa</a></span>
+            <input class="form-input-privacy" type="checkbox" />
+            <span class="form-privacy"
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="privacy-link" href="">Условия договорa</a></span
+            >
           </label>
           <button class="form-button" type="submit">Отправить</button>
-
-
         </form>
       </div>
     </div>

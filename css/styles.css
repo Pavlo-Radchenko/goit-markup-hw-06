@@ -599,9 +599,15 @@ img {
   border-radius: 4px;
   background-color: transparent;
   padding-left: 16px;
+  color: var(--primary-white-color);
 }
 
 .footer-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
   width: 200px;
   height: 50px;
   background: #2196f3;
@@ -609,19 +615,10 @@ img {
   border-radius: 4px;
   border: var(--accent-color);
   color: var(--primary-white-color);
-
-  /* align-items: center;
-  text-align: center;
-  justify-content: center;
-  letter-spacing: 0.06em; */
+  cursor: pointer;
 
   padding: 0;
 }
-
-/* .button-icon {
-  align-items: center;
-  justify-content: center;
-} */
 
 /* button */
 .button {
@@ -913,6 +910,11 @@ img {
   fill: var(--primary-white-color);
 }
 
+.footer-form-group {
+  display: flex;
+  gap: 12px;
+}
+
 /* modal window */
 
 .modal-backdrop {
@@ -982,6 +984,14 @@ img {
   height: 100%;
 }
 
+.form-group-list {
+  position: relative;
+}
+
+.form-icon {
+  position: absolute;
+}
+
 .form-title {
   font-family: 'Roboto';
   font-style: normal;
@@ -1031,15 +1041,6 @@ img {
   letter-spacing: 0.01em;
 
   color: #757575;
-}
-
-textarea[placeholder] {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
 }
 
 .form-privacy {
