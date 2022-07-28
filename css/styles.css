@@ -551,6 +551,7 @@ img {
   display: flex;
   /* щоб вирівняти весь контент за однією лінією */
   align-items: baseline;
+  justify-content: center;
 
   width: 1200px;
   margin-left: auto;
@@ -1023,6 +1024,7 @@ img {
 }
 
 .form-input {
+  display: block;
   position: relative;
   width: 448px;
   height: 40px;
@@ -1110,10 +1112,27 @@ img {
   gap: 9px;
 }
 
-.form-input-privacy {
-  margin: 0;
-  align-items: center;
-  justify-content: center;
+.checkbox {
+  display: block;
+  appearance: none;
+  position: absolute;
+}
+
+.checkbox-icon {
+  width: 16px;
+  height: 15px;
+  border: 1px solid var(--title-text-color);
+  border-radius: 4px;
+}
+
+.checkbox:checked + .checkbox-icon {
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  /* background-origin: border-box; */
+  background-image: url(../images/check-agree.svg);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .privacy-link {
