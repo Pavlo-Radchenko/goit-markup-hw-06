@@ -1123,6 +1123,7 @@ img {
   height: 15px;
   border: 1px solid var(--title-text-color);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox:checked + .checkbox-icon {
@@ -1133,6 +1134,8 @@ img {
   background-size: contain;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-link {
